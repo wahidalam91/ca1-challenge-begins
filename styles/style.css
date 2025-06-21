@@ -88,5 +88,53 @@ nav{
 nav .btn-primary a{
     text-decoration: none;
     color: rgb(13, 19, 33);
+}
+
+
+/* Hero/Banner Section */
+
+.hero{
+    margin: 0 auto;
+    background: url("../assets/Hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-container{
+    margin: 0 auto;
+    max-width: 998px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 26px 0px 45px 0px ;
+
+    text-align: center;
+    
+}
+
+.hero-container img, .description{
+    margin-bottom: 32px;
+}
+
+.hero-container .section-title{
+    margin-bottom: 24px;
+    font-size: 48px;
+    line-height: 68px;
+    word-spacing: 5px;
+}
+
+.hero-container .btn-primary{
+    background-color: rgb(13, 19, 33);
+    opacity: 1;
+
+}
+.hero-container .btn-primary a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 19, 33);
+    opacity: 1;
 
 }
