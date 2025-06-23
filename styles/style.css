@@ -149,8 +149,6 @@ nav .btn-primary a{
 
 .why-web-development-content{
     margin: 0 auto;
-    height: 1233px;
-
     padding: 80px 97px;
 }
 
@@ -208,5 +206,31 @@ nav .btn-primary a{
 .why-card-text .btn-secondary a{
     text-decoration: none;
     color: rgb(13, 19, 33, 0.7);
+}
+
+/* My Inspiration */
+
+.my-inspiration{
+    text-align: center;
+}
+
+.my-inspiration .section-title{
+    margin-bottom: 24px;
+}
+
+.my-inspiration .description{
+    margin-bottom: 48px;
+}
+
+.my-inspiration .video-container{
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+
+}
+
+.my-inspiration iframe{
+    border-radius: 16px;
 }
 
