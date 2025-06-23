@@ -52,6 +52,7 @@
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    background-color: transparent;
 
 }
 
@@ -79,6 +80,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .nav-logo{
@@ -150,6 +152,7 @@ nav .btn-primary a{
 .why-web-development-content{
     margin: 0 auto;
     padding: 80px 97px;
+    background-color: rgb(13, 19, 33, 0.02);
 }
 
 .why-web-development .section-title{
@@ -233,4 +236,46 @@ nav .btn-primary a{
 .my-inspiration iframe{
     border-radius: 16px;
 }
+
+
+/* Footer Styles Added */
+
+
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    margin-top: 80px;
+    padding: 32px 0;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+footer .section-title{
+
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+
+footer .social-icons{
+    display: flex;
+    align-items: center;
+    gap: 24px
+}
+
+footer .social-icons li{
+    list-style: none;
+}
+
+footer .social-icons a{
+    text-decoration: none;
+}
+
 
